@@ -30,7 +30,7 @@
 1.Install tailwindcss
 
 ```bash
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autoprefixer
 ```
 
 2.Create  tailwind config file
@@ -41,7 +41,7 @@ npx tailwindcss init
 3.Add file extensions to tailwind config file in the contents property
 
 ```bash
- content: ["./src/**/*.{html,js}"],
+ content: ["./index.html","./src/**/*.{html,js}"],
  ```
 
  4.Add the tailwind directives at the top of the `index.css` file
@@ -50,6 +50,11 @@ npx tailwindcss init
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+5.Add the following details in the plugin property of tailwind config
+
+```bash
+[require("daisyui"),require("@tailwindcss/line-clamp")],]
 ```
 
 ### Adding plugins and dependencies

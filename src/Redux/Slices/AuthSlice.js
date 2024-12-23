@@ -8,9 +8,9 @@ const initailState={
 
 const authSlice=createSlice({
     name:'auth',
-    initialState,
+    initailState,
     reducers:{},
 })
 
-export const {}=authSlice.actions;
+// export const {}=authSlice.actions;
 export default authSlice.reducer;
