@@ -7,7 +7,7 @@ import courseSliceReducer from "./Slices/CourseSlice"
 const store=configureStore({
     reducer:{
         auth:authSliceReducer,
-        course:courseSliceReducer
+        course: courseSliceReducer
     },
     devTools:true
 });
