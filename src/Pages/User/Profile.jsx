@@ -14,7 +14,7 @@ function Profile() {
 
     async function handleCancellation() {
         toast("Initiating cancellation");
-        await dispatch(cancelCourseBundle());
+        // await dispatch(cancelCourseBundle());
         await dispatch(getUserData());
         toast.success("Cancellation completed!");
         navigate("/");
