@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeLayout from '../Layouts/HomeLayout'
-import aboutMainImage from '../Assets/Images/aboutMainImage.png'
+import AboutUsPage from '../Assets/Images/AboutUsPage-Photoroom.png'
 import CarouselSlide from '../Components/CarouselSlide'
 import { celebrities } from '../Constants/CelebrityData'
 
@@ -9,7 +9,7 @@ return (
     <HomeLayout>
         <div className='pl-20 pt-20 flex flex-col text-white'>
             <div className='flex items-center gap-5 mx-10'>
-                <section className='w-1/2 space-y-10'>
+                <section className='w-[60%]  space-y-10'>
                     <h1 className='text-5xl text-yellow-500 font-semibold'>
                         Quality Education Within Reach
                     </h1>
@@ -17,7 +17,7 @@ return (
                     Our mission is to deliver affordable, high-quality education to learners worldwide. Our platform serves as a bridge for aspiring teachers and students, enabling them to share their skills, creativity, and knowledge. By fostering collaboration and learning, we aim to empower individuals and contribute to the growth and well-being of society.
                     </p>
                 </section>
-                <div className='w-1/2'>
+                <div className='w-[40%] py-20'>
                     <img
                     id='test1'
                     style={{
@@ -25,7 +25,7 @@ return (
                     }}
                     alt='about main page'
                     className='drop-shadow-2xl'
-                    src={aboutMainImage}
+                    src={AboutUsPage}
                     />
                 </div>
 
