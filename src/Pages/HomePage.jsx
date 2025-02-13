@@ -2,6 +2,7 @@ import React from 'react'
 import HomeLayout from '../Layouts/HomeLayout'
 import { Link } from 'react-router-dom'
 import HomePageImage from "../Assets/Images/homePageMainImage.png"
+import { Typewriter } from 'react-simple-typewriter'
 
 function HomePage() {
     return (
@@ -11,8 +12,15 @@ function HomePage() {
                     <h1 className="text-5xl font-semibold">
                         Find out best
                         <span className="text-yellow-500 font-bold">
-                            Online Courses
-                        </span>
+                            <Typewriter
+                                words={["Online Courses"]}
+                                loop={false} // Change to true if you want it to repeat
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                cursor
+                                cursorStyle=">"
+                            />
+                            </span>
                     </h1>
                     <p className="text-xl text-gray-200">
                         We have a large library of courses taught by highly skilled and qualified faculties at a very affordable cost.
