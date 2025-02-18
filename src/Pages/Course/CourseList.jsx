@@ -2,8 +2,9 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 
-import getAllCourses from "../../Redux/Slices/CourseSlice"
+import {getAllCourses} from "../../Redux/Slices/CourseSlice"
 import HomeLayout from '../../Layouts/HomeLayout';
+import CourseCard from '../../Components/CourseCard';
 
 function CourseList() {
     const dispatch = useDispatch();

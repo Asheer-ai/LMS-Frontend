@@ -6,6 +6,7 @@ import AboutUsPage from "../Assets/Images/AboutUsPage-Photoroom.png";
 import CarouselSlide from "../Components/CarouselSlide";
 import { celebrities } from "../Constants/CelebrityData";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 
 
 function AboutUs() {
@@ -45,9 +46,12 @@ function AboutUs() {
                             learning, we aim to empower individuals and contribute to the
                             growth and well-being of society.
                         </p>
+                        <Link to="/courses">
                         <button className="px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                             Learn More
                         </button>
+                        </Link>
+                        
                         </motion.section>
 
                     {/* Right Image */}
