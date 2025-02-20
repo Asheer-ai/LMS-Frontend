@@ -7,7 +7,7 @@ import { RxCrossCircled } from 'react-icons/rx';
 function CheckoutFailure() {
     return (
         <HomeLayout>
-            <div className="min-h-[90vh] flex items-center justify-center text-white">
+            <div className="min-h-[90vh] bg-gradient-to-b from-gray-900 to-black flex items-center justify-center text-white">
                 <div className="w-80 h-[26rem] flex flex-col justify-center items-center shadow-[0_0_10px_black] rounded-lg relative">
                     <h1 className="bg-red-500 absolute text-center top-0 w-full py-4 text-2xl font-bold rounded-tl-lg rounded-tr-lg">Payment failed</h1>
 

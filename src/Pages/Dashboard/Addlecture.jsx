@@ -115,9 +115,9 @@ function AddLecture() {
                                 <input type="file" className="hidden" id="lecture" name="lecture" onChange={handleVideo} accept="video/mp4 video/x-mp4 video/*" />
                             </div>
                         )}
-                        <button type="submit" className="btn btn-primary py-1 font-semibold text-lg">
+                        <button className="btn  btn-accent  py-2 px-4 text-lg font-semibold">
                             Add new Lecture
-                        </button>
+                            </button>
                     </form>
                 </div>
             </div>  

@@ -68,7 +68,7 @@ function CreateCourse() {
 
     return (
         <HomeLayout>
-            <div className="flex items-center justify-center h-[100vh]">
+            <div className="flex items-center justify-center h-[100vh] bg-gradient-to-b from-gray-900 to-black">
                 <form
                     onSubmit={onFormSubmit}
                     className="flex flex-col justify-center gap-5 rounded-lg p-4 text-white w-[700px] my-10 shadow-[0_0_10px_black] relative"
@@ -174,7 +174,7 @@ function CreateCourse() {
                         </div>
                     </main>
 
-                    <button type="submit" className="w-full py-2 rounded-sm font-semibold text-lg cursor-pointer bg-yellow-600 hover:bg-yellow-500 transition-all ease-in-out duration-300">
+                    <button type="submit" className="w-full py-2 rounded-sm font-semibold text-lg cursor-pointer bg-gradient-to-r from-yellow-400 to-orange-500 transition-all ease-in-out duration-300">
                         Create Course
                     </button>
 
