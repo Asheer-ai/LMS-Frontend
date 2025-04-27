@@ -10,7 +10,7 @@ import store from './Redux/Store.js'
 
 createRoot(document.getElementById('root')).render(
     <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/LMS-Frontend">
       <App />
       <Toaster/>
     </BrowserRouter>
