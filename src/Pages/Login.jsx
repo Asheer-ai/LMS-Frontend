@@ -8,7 +8,7 @@ import { toast } from "react-hot-toast"
 import { login } from '../Redux/Slices/AuthSlice';
 
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+
 
 function Login() {
 

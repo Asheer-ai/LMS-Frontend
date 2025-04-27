@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import axiosInstance from "../Helpers/axiosinstance";
 import { isEmail } from "../Helpers/regexMatcher";
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+
 
 function Contact() {
     const [userInput, setUserInput] = useState({

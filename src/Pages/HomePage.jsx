@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import HomePageImage from "../Assets/Images/homePageMainImage.png";
 import { Typewriter } from 'react-simple-typewriter';
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+
 
 function HomePage() {
     const particlesInit = async (main) => {
