@@ -7,7 +7,7 @@ import { getUserData } from "../../Redux/Slices/AuthSlice";
 import { cancelCourseBundle } from "../../Redux/Slices/RazorpaySlice";
 
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+
 
 function Profile() {
     const dispatch = useDispatch();
